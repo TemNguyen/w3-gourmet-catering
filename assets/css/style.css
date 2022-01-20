@@ -1,0 +1,225 @@
+/* Reset CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+
+}
+
+li {
+    list-style: none;
+}
+
+hr {
+    border: solid #eee 1px;
+    margin: 20px 0;
+    width: 100%
+}
+
+.ls-5 {
+    letter-spacing: 5px !important;
+}
+
+.row {
+
+}
+
+.col {
+    float: left;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.form-control {
+    display: inline-block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 15px;
+    padding: 10px 5px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.btn {
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 30px;
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 10px 4px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #ccc;
+}
+
+#header {
+    height: 55px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    position: fixed;
+    z-index: 1;
+}
+
+#header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#nav {
+    padding: 0 16px;
+    font-size: 15px;
+}
+
+#nav li {
+    display: inline-block;
+    padding: 0 16px;
+}
+
+#nav li:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 55px;
+    color: #000;
+    letter-spacing: 4px;
+}
+
+#nav .left-nav {
+    float: right;
+}
+
+#content {
+    
+}
+
+#content::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#content .poster {
+    position: relative;
+}
+
+#content .poster .poster-title {
+    position: absolute;
+    margin: 10px 0;
+    font-size: 36px;
+    font-weight: 400;   
+    line-height: 1.5;
+    bottom: 15px;
+    left: 30px;
+}
+
+#content .content-section {
+    padding: 76px 0;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .content-section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#content .about-img {
+    width: 100%;
+    padding-right: 48px;
+}
+
+#content .section-header {
+    text-align: center;
+    font-size: 47px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#content .section-sub-header {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+#content .about-body {
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#content .seasonal {
+    background-color: #f1f1f1;
+    padding: 8px;
+}
+
+#content .about-sub-body {
+    margin-top: 18px;
+    line-height: 1.5;
+    color: #757575;
+    font-size: 18px;
+}
+
+#content .menu-list-item {
+    margin-top: 50px;
+}
+
+#content .menu-list-item li {
+    margin-top: 40px;
+}
+
+#content .menu-item {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#content .menu-item-des {
+    margin-top: 15px;
+    color: #757575;
+    font-size: 15px;
+}
+
+#content .contact-header {
+    font-size: 47px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#content .contact-body {
+    margin-top: 50px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+#content .contact-address {
+    margin: 18px 0;
+    color: #607d8b;
+}
+
+#content .contact-form {
+    margin-top: 15px;
+    display: inline-block;
+}
+
+
+
+#footer {
+
+}
+
