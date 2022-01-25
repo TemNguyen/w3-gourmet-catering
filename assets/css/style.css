@@ -11,8 +11,8 @@ html {
     scroll-behavior: smooth;
 }
 
-#main {
-    
+.text-center {
+    text-align: center !important;
 }
 
 li {
@@ -35,6 +35,10 @@ hr {
 
 .col {
     float: left;
+}
+
+.col-1 {
+    width: 100%;
 }
 
 .col-2 {
@@ -64,6 +68,10 @@ hr {
 
 .btn:hover {
     background-color: #ccc;
+}
+
+#main {
+    
 }
 
 #header {
@@ -121,6 +129,10 @@ hr {
     position: relative;
 }
 
+#content .poster .poster-img {
+    width: 100%;
+}
+
 #content .poster .poster-title {
     position: absolute;
     margin: 10px 0;
@@ -134,6 +146,7 @@ hr {
 #content .content-section {
     padding: 76px 0;
     width: 1100px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -198,6 +211,10 @@ hr {
     margin-top: 15px;
     color: #757575;
     font-size: 15px;
+}
+
+#content .menu-img {
+    width: 100%;
 }
 
 #content .contact-header {
